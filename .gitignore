@@ -1,0 +1,23 @@
+# 접속 정보 / 비밀번호 (절대 커밋 금지)
+.streamlit/secrets.toml
+
+# 로컬 SQLite (옛 버전) 및 임시/로그
+*.db
+*_log.txt
+streamlit_log.txt
+bat_debug.txt
+run_log.txt
+
+# 파이썬 캐시/빌드
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+build/
+dist/
+*.spec
+
+# OS
+Thumbs.db
+.DS_Store
